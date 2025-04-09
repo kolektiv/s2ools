@@ -1,9 +1,10 @@
 [workspace]
-members = ["crates/*", "examples/*"]
+members  = ["crates/*", "examples/*"]
 resolver = "2"
 
 [workspace.dependencies]
-
+streamstore = { version = "0.10" }
+tokio       = { version = "1", features = ["full"] }
 
 [workspace.lints.clippy]
 cargo       = "warn"
@@ -30,9 +31,9 @@ unused                  = "warn"
 
 [workspace.package]
 authors    = ["Andrew Cherry (@kolektiv)"]
-categories = []
+categories = ["asynchronous", "data-structures"]
 edition    = "2024"
-keywords   = []
+keywords   = ["s2", "stream"]
 license    = "AGPL-3.0-only"
 readme     = "README.md"
 repository = "https://github.com/kolektiv/s2ools"

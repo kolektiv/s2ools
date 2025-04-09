@@ -1,6 +1,15 @@
-[package]
-name = "basic"
-version = "0.1.0"
-edition = "2024"
-
 [dependencies]
+streamstore.workspace = true
+tokio.workspace       = true
+
+[package]
+authors.workspace    = true
+categories.workspace = true
+description          = "Basic Examples for s2ools"
+edition.workspace    = true
+keywords.workspace   = true
+license.workspace    = true
+name                 = "basic"
+readme.workspace     = true
+repository.workspace = true
+version.workspace    = true
