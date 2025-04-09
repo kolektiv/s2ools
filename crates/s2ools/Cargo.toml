@@ -1,4 +1,6 @@
 [dependencies]
+streamstore.workspace = true
+tokio.workspace       = true
 
 [lints]
 workspace = true
